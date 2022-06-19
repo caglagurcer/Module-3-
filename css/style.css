@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ecdede;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 175%;
+    color: #390e41;
+}
+
+h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    font-family: italic;
+    color: #390e41;
+    margin-top: 10px;
+    margin-bottom: 35px;
+
+}
+.head{
+    margin-top: 20px;
+}
+div.box{
+    background-color: rgb(215, 225, 233);
+    border: #000000 solid 2px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+.b-head h2{
+    font-weight: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #390e41;
+}
+div.b-body{
+    clear: right;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.navbar{
+    background-color: rgb(206, 181, 218);
+ 
+    font-family: italic;
+}
+.navbar a{
+    text-decoration: none;
+    color: #000000;
+}
+.navbar-brand{
+    padding-left: 5%;
+}
+#collapsable-nav{
+    background-color: white;
+    text-align: center;
+    border: solid 2px black;
+    font-size: 1.5em;
+}
+.collapse li{
+    width: 100%;
+    text-align: center;
+    border-bottom: solid 2px black;
+}
+.navbar-toggler{
+    margin: 15px;
+}
+.visible-xs{
+    visibility: hidden;
+}
+@media (min-width: 992px){
+    .col-lg-4{
+        float: left;
+        width: 33.33%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6 {
+        float: left;
+        width: 50%;
+      }
+    .col-md-12 {
+        float: left;
+        width: 100%;
+        margin-left: -20px;
+        
+    }
+    .col-md-12>div.section{
+        width: 95%;
+    }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+      width: 100%;
+    }
+    .visible-xs{
+        visibility: visible;
+    }
+}
