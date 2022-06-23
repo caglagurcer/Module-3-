@@ -89,7 +89,7 @@ div.b-body{
     .col-md-12 {
         float: left;
         width: 100%;
-        margin-left: -20px;
+        margin-left: 20px;
         
     }
     .col-md-12>div.section{
